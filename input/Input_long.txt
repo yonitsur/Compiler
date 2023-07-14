@@ -1,0 +1,390 @@
+array IntArray = int[];
+class AA
+{
+    int com;
+	int WALK := 8;
+	string RUN := "RUN";
+	int f1(int m){ WALK:=9; }
+	int f2(int y, string h){return 0;}
+	string f3(AA a){ return a.RUN;}
+	void f4(){ WALK:=9;}
+}
+// tam
+
+class BB extends AA
+{
+	/* tamitam
+
+    */
+	AA g := nil;
+	AA swim;
+	BB www;
+	string f5(int qq){ 
+		WALK:=9;
+        swim.f1(f1(3));
+        int yyy := www.swim.com;
+        AA aa := new BB;
+        return g.f3(www);
+        
+        //swim.f1(int);
+		//int yyy := int;
+		//BB bb := BB;
+		//return string;
+	}
+    int q := 1;
+
+}
+
+class CC extends BB
+{
+	BB www;
+	CC ccc;
+	int iii;
+	CC ggoo(BB b){
+		CC cc := new CC;
+		cc.iii:=9;
+		return cc;
+	}
+}
+class DD extends CC
+{
+	
+	AA aoa;
+	BB bob;
+	CC coc;
+	
+	void ffff3(){
+		DD dd;
+		f3(DD.coc.ggoo(coc));
+		f3(dd.coc.ggoo(coc));
+		bob.f3(nil);
+		aoa.f3(bob);
+		coc.f3(aoa);
+		www.f3(nil);
+		dd.coc.RUN:=f3(nil);
+		dd.coc.ggoo(coc.ggoo(bob));
+		aoa := dd.coc.ggoo(coc.ggoo(coc.ccc.ggoo(nil)));
+
+	}
+	
+}
+
+int monthJuly()
+{
+	int july := 7;
+	return july;
+}
+class Person
+{
+	int ID;
+	int age := 18;
+    Person opp;
+    
+   
+	IntArray lastYearSalaries;
+
+	int getAge(string st)  {  opp := nil; opp.ID:=9; return age;   }
+	int birthday(){ opp.getAge("stringst"); age := age+1; return opp.age; }
+}
+class B extends Person
+{
+	B bb;
+	int y;
+	int mbfff(string st)  {  
+		B burekas;
+		burekas.birthday();
+		burekas.age:=burekas.ID;
+		burekas.opp.getAge("fgdg");
+		return burekas.bb.y;   
+	}
+	
+	void getAge2()  { 
+		bb.y:=8;
+		bb.age:=8;
+		bb.lastYearSalaries := new int[12];
+		age:=9; 
+		bb.birthday();
+		bb.getAge("fyityidg");
+		bb.opp.getAge("fgdg");
+	}
+}
+class Student extends Person
+{
+	Student uuu;
+	
+	B bbb;
+	IntArray grades;
+	int getAverage()
+	{
+		uuu.ID:=0;
+		Student aaa := new Student;
+		aaa.lastYearSalaries := new int[10];
+		aaa.lastYearSalaries[0] := 0;
+		aaa.opp.opp.opp.age:=9;
+		bbb.age:=8;
+		bbb.lastYearSalaries := new int[12];
+		bbb.getAge2();
+		bbb.bb.age:=8;
+		bbb.bb.lastYearSalaries := new int[12];
+		bbb.getAge("strst");
+		int i := 0;
+		int sum := 0;
+		while (i<10)
+		{
+			sum := sum+grades[i];
+			i := i+1;
+		}
+		return sum/10;
+	}
+}
+class IntList
+{
+    int head;
+    IntList tail;
+}
+
+IntList MergeLists(IntList l1, IntList l2)
+{
+    if (l1 = nil)
+    {
+        return l2;
+    }
+    if (l2 = nil)
+    {
+        return l1;
+    }
+    
+    if (l1.head < l2.head)
+    {
+        IntList l3 := l1;
+        l3.tail := MergeLists(l1.tail,l2);
+        return l3;
+    }
+    
+    if (l2.head < l1.head)
+    {
+        IntList l3 := l2;
+        l3.tail := MergeLists(l1,l2.tail);
+        return l3;
+    }
+    
+}
+void f(){
+	Person p;
+	B b;
+	int n := b.getAge("st");
+	b.getAge2();
+	int t1 := p.age;
+	int t2 := b.age;
+	int t3 := b.y;
+	int t4 := p.getAge("gdfh");
+
+
+}
+
+array Mat      = IntArray[];
+
+int trace3x3(Mat A)
+{
+	return A[0][0]+A[1][1]+A[2][2];
+}
+
+void main()
+{
+	IntArray row0 := new int[3];
+	IntArray row1 := new int[3];
+	IntArray row2 := new int[3];
+
+	Mat A := new IntArray[3];
+
+	A[0][0]:=0;A[0][1]:=1;A[0][2]:=2;
+	A[1][0]:=3;A[1][1]:=4;A[1][2]:=5;
+	A[2][0]:=6;A[2][1]:=7;A[2][2]:=8;
+
+	int x:= trace3x3(A);
+	Student moish := new Student;
+	moish.grades := new int[10];
+	moish.lastYearSalaries := new int[12];
+	int COMPILATION := 6;
+
+	moish.grades[COMPILATION] := 99;
+
+	if (moish.getAverage() > 90)
+	{
+		moish.lastYearSalaries[moish.age] := moish.lastYearSalaries[moish.birthday()] + 1000;
+	}
+	Student dave := new Student;
+    IntList a := new IntList;
+    IntList b := new IntList;
+    IntList c := new IntList;
+    IntList d := new IntList;
+
+    IntList A := new IntList;
+    IntList B := new IntList;
+    IntList C := new IntList;
+    IntList D := new IntList;
+       
+    a.head := 34;
+    b.head := 70;
+    c.head := 92;
+    d.head := 96;
+
+    a.tail := b;
+    b.tail := c;
+    c.tail := d;
+    d.tail := nil;
+
+    A.tail := B;
+    B.tail := C;
+    C.tail := D;
+    D.tail := nil;
+
+    IntList l := MergeLists(a,A);
+    
+    while (1 - (l = nil))
+    {
+        PrintInt(l.head);
+        l := l.tail;
+    }
+}
+
+array IntArray1 = int[];
+void F1(IntArray1 A){ PrintInt(A[8]); }
+void main1(){ 
+    F1(nil);    
+}
+
+void primes(int start, int end)
+{
+    int p1 := start;
+    PrintInt(p1);
+    string s1 := "Hello";
+    PrintString(s1);
+
+
+    while (p1 < end+1)
+    {
+        if (IsPrime(p1))
+        {
+            PrintInt(p1);
+        }
+    }
+}
+
+string myvar := "ab";
+class Fa
+{
+    Fa myvar := nil;
+
+    void foo() 
+    {
+        int myvar := 100;
+        PrintInt(myvar);
+    }
+}
+
+class Grandfather
+{
+	int WALK := 8;
+	string RUN := "RUN";
+}
+
+class Father extends Grandfather
+{
+	Father g := nil;
+}
+
+class Son extends Father
+{
+	Son swim;
+	int iii;
+}
+
+array WisePeople = Grandfather[];
+
+void ddddd()
+{
+	Father g      := new Father;
+	g.g           := new Son;
+	WisePeople wp := new Grandfather[180]; 
+	wp[250] := g;
+}
+
+class Grandfather2
+{
+	int WALK := 8;
+	string RUN := "RUN";
+}
+
+class Father2 extends Grandfather2
+{
+	Father2 g := nil;
+}
+
+class Son2 extends Father2
+{
+	Son2 swim;
+	int iii;
+}
+
+void ma()
+{
+	Grandfather2 g1 := new Grandfather2;
+	Grandfather2 g2 := new Father2;
+	Grandfather2 g3 := new Son2;
+
+	Father2 f1 := new Father2;
+	Father2 f2 := new Son2;
+
+	Son2 s := new Son2;
+	
+	g1.RUN:= "hhh";
+	s.WALK := 700;
+}
+
+class AxA
+{
+	int WALK;
+	string RUN;
+}
+
+class BxB extends AxA
+{
+	AxA swim;
+	BxB www;
+	void f3(int qq){ int u;}
+
+}
+
+class CxC extends BxB
+{
+	CxC ccc;
+	int iii;
+	
+}
+class DxD extends CxC
+{
+	
+	AxA aoa;
+	BxB bob;
+	CxC coc;
+	
+	void ffff3(){
+		BxB dd;
+		AxA sss;
+		CxC cccc;
+		
+		dd :=  cccc;
+		dd := dd;
+		dd := new CxC;
+		dd := new DxD;
+
+		
+		
+		
+		
+		f3(1);
+		
+	}
+	
+}

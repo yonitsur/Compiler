@@ -1,0 +1,22 @@
+array IntArray = int[];
+class IntList
+{
+    int head;
+    IntArray arr;
+    IntList tail;
+    void func(string g){
+        int y:=0;
+    }
+}
+
+void main()
+{
+    IntList a := new IntList;
+    a.head := 34;
+    int t := 0;
+    int y;
+    
+    t:=y;
+    
+   
+}
